@@ -1,17 +1,28 @@
-### Hi there, I'm Madhusudan Prajapat [website](https://madhusudan0906.github.io/) 👋
+[!image](https://contentstatic.techgig.com/thumb/msid-89803879,width-355,resizemode-4/How-to-become-a-web-developer-A-complete-guide.jpg?16474)
 
-## I am Programmer and Aspiring Full Stack Web Developer
+<hr/>
+
+### Hi there, I'm Madhusudan Prajapat 🌐[!website](https://madhusudan0906.github.io/) 👋
+
+<hr/>
+
+### I am Programmer and Aspiring Full Stack Web Developer
+
+<hr/>
+
+- I'm From Indore, MP India ![image](https://user-images.githubusercontent.com/103635175/192430392-391f2a34-580a-4adb-bd0c-8d1fbe214089.png)
 - 🛒 I am Currently Work on bigBasket Clone
 - 🌱 I am Currently Learning MongoDB and Express and advance React
 - 🙋‍♂️ I am good at team working
 - 🎧 I love to listen Music
+
+<hr/>
 
 ### connect me :
 
 [![image](https://user-images.githubusercontent.com/103635175/192428903-a9a77a8c-371b-478b-9730-ccf3312cf517.png)](https://madhusudan0906.github.io/)
 [![image](https://user-images.githubusercontent.com/103635175/192428999-336853fb-7cee-4e34-a3f7-3eb28bbb0b98.png)](https://www.linkedin.com/in/madhusudan-prajapat-918808169/)
 
-<br/>
 <hr/>
 
 ### Languages and Tools
@@ -29,13 +40,15 @@
 <br/>
 <hr/>
 
+
+### My Github Status :
+
 ![trophy](https://github-profile-trophy.vercel.app/?username=Madhusudan0906)
 
 <hr/>
 
-### My Github Status :
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madhusudan0906&theme=tokyonight)
+<br/>
 ![Madhusudan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Madhusudan0906&show_icons=true&theme=tokyonight)
 
 
