@@ -31,7 +31,9 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=Madhusudan0906)](https://github.com/ryo-ma/github-profile-trophy)
 
 <hr/>
-### my Github Status :
+
+### My Github Status :
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madhusudan0906&theme=tokyonight)
 ![Madhusudan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Madhusudan0906&show_icons=true&theme=tokyonight)
 
