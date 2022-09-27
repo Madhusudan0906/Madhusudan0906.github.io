@@ -28,7 +28,8 @@
 
 <br/>
 <hr/>
-[![trophy](https://github-profile-trophy.vercel.app/?username=Madhusudan0906)](https://github.com/ryo-ma/github-profile-trophy)
+
+![trophy](https://github-profile-trophy.vercel.app/?username=Madhusudan0906)
 
 <hr/>
 
