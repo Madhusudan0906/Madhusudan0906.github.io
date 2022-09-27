@@ -8,8 +8,8 @@
 
 ### connect me :
 
-[<img align="left" alt="Madhusudan" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website](https://madhusudan0906.github.io/)
-[<img align="left" alt="Madhusudan" width="22px" src="https://cdn.jsdelivr.net/npm/sample-icons@v3/icons/linkedin.svg" />][LinkedIn](https://www.linkedin.com/in/madhusudan-prajapat-918808169/)
+![image](https://user-images.githubusercontent.com/103635175/192428903-a9a77a8c-371b-478b-9730-ccf3312cf517.png)(https://madhusudan0906.github.io/)
+![image](https://user-images.githubusercontent.com/103635175/192428999-336853fb-7cee-4e34-a3f7-3eb28bbb0b98.png)(https://www.linkedin.com/in/madhusudan-prajapat-918808169/)
 
 <br/>
 <hr/>
