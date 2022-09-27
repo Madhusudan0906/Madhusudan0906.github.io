@@ -1,8 +1,8 @@
-[!image](https://contentstatic.techgig.com/thumb/msid-89803879,width-355,resizemode-4/How-to-become-a-web-developer-A-complete-guide.jpg?16474)
+[![image]](https://contentstatic.techgig.com/thumb/msid-89803879,width-355,resizemode-4/How-to-become-a-web-developer-A-complete-guide.jpg?16474)
 
 <hr/>
 
-### Hi there, I'm Madhusudan Prajapat 🌐[!website](https://madhusudan0906.github.io/) 👋
+### Hi there, I'm Madhusudan Prajapat 🌐[![website]](https://madhusudan0906.github.io/) 👋
 
 <hr/>
 
