@@ -1,4 +1,5 @@
 ![image](https://contentstatic.techgig.com/thumb/msid-89803879,width-355,resizemode-4/How-to-become-a-web-developer-A-complete-guide.jpg?16474)
+[<img align="center" alt="image" src="https://contentstatic.techgig.com/thumb/msid-89803879,width-355,resizemode-4/How-to-become-a-web-developer-A-complete-guide.jpg?16474" width="100%"/>
 
 <hr/>
 
