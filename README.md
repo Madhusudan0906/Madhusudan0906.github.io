@@ -3,7 +3,10 @@
 
 <hr/>
 
-### Hi there, I'm Madhusudan Prajapat 🌐![website](https://madhusudan0906.github.io/) 👋
+### Hi there, I'm Madhusudan Prajapat [🌐](https://madhusudan0906.github.io/) 👋
+
+![](https://visitor-badge.laobi.icu/badge?page_id=Madhusudan0906)
+[![Github](https://img.shields.io/github/followers/Madhusudan0906?label=Follow&style=social)](https://github.com/Madhusudan0906)
 
 <hr/>
 
@@ -11,10 +14,9 @@
 
 <hr/>
 
-- I'm From Indore, MP India ![image](https://user-images.githubusercontent.com/103635175/192430392-391f2a34-580a-4adb-bd0c-8d1fbe214089.png)
+#### I'm From Indore, MP India <img align="center" alt="image" src="https://user-images.githubusercontent.com/103635175/192430392-391f2a34-580a-4adb-bd0c-8d1fbe214089.png" width="20px"/>
 - 🛒 I am Currently Work on bigBasket Clone
-- 🌱 I am Currently Learning MongoDB and Express and advance React
-- 🙋‍♂️ I am good at team working
+- 🌱 I am Currently Learning **React Advance**
 - 🎧 I love to listen Music
 
 <hr/>
