@@ -8,8 +8,8 @@
 
 ### connect me :
 
-![image](https://user-images.githubusercontent.com/103635175/192428903-a9a77a8c-371b-478b-9730-ccf3312cf517.png)(https://madhusudan0906.github.io/)
-![image](https://user-images.githubusercontent.com/103635175/192428999-336853fb-7cee-4e34-a3f7-3eb28bbb0b98.png)(https://www.linkedin.com/in/madhusudan-prajapat-918808169/)
+[![image](https://user-images.githubusercontent.com/103635175/192428903-a9a77a8c-371b-478b-9730-ccf3312cf517.png)](https://madhusudan0906.github.io/)
+[![image](https://user-images.githubusercontent.com/103635175/192428999-336853fb-7cee-4e34-a3f7-3eb28bbb0b98.png)](https://www.linkedin.com/in/madhusudan-prajapat-918808169/)
 
 <br/>
 <hr/>
@@ -32,7 +32,7 @@
 
 <hr/>
 ### my Github Status :
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madhusudan0906&theme=tokyonight)
-![Madhusudan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Madhusudan0906&show_icons=true&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Madhusudan0906&theme=tokyonight)]
+[![Madhusudan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Madhusudan0906&show_icons=true&theme=tokyonight)]
 
 
