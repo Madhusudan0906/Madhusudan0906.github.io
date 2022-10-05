@@ -1,7 +1,9 @@
+import { Divider } from '@chakra-ui/react';
 import { useRef } from 'react';
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
+import Info from './components/Info';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
@@ -12,8 +14,7 @@ function App() {
   const projectref = useRef();
   const contactref = useRef();
   const scrollSmoothHandler = ref => {
-    console.log("Triggered.");
-    window.scrollTo({top:ref.current?.offsetTop,behavior:"smooth"})
+    window.scrollTo({top:ref.current?.scrollIntoView(false),behavior:"smooth"})
   };
   const about=()=>{
     scrollSmoothHandler(aboutref);
@@ -31,13 +32,22 @@ function App() {
   return (
     <div className="App">
       <Navbar about={about} skill={skill} project={project} contact={contact} />
-      <div ref={aboutref}><About id="about"/></div>
+      <Divider/>
+      <Info />
+      <Divider/>
+      <div ref={aboutref}>
+        <About id="about"/></div>
+        <Divider/>
       <div ref={skillref}><Skills id="skill" /></div>
+      <Divider/>
       <div ref={projectref}><Projects id="project" /></div>
+      <Divider/>
       <div ref={contactref}><Contact id="contact" /></div>
 
       
-      
+      {/* <h1>Currently under Development !!</h1>
+      <h3>Sorry 🙏</h3> */}
+  
       
     </div>
   );
