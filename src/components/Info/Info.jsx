@@ -27,7 +27,7 @@ const Info = () => {
           </Text>
         </GridItem>
         <GridItem>
-          <Image loading='lazy' src="https://contentstatic.techgig.com/thumb/msid-89803879,width-720,resizemode-4/How-to-become-a-web-developer-A-complete-guide.jpg?16474" alt="programmer"/>
+          <Image style={{boxShadow: "rgba(200, 200, 200, 0.2) 0px 7px 29px 0px"}} loading='lazy' src="https://contentstatic.techgig.com/thumb/msid-89803879,width-720,resizemode-4/How-to-become-a-web-developer-A-complete-guide.jpg?16474" alt="programmer"/>
         
 
         </GridItem>

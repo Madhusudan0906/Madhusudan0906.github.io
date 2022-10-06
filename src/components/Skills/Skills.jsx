@@ -6,35 +6,36 @@ export default function Skills(){
     <Box padding="1%" align="center" marginTop="2%">
         <Grid templateColumns='repeat(4,1fr)' gap={6}>
             <GridItem>
-    <img width="50%" style={{height:"50%"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/html_5_e17a3be25f.svg" alt="HTML" />
+                {/* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */}
+    <img width="50%" style={{height:"50%",boxShadow: "rgba(0,0,0, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/html_5_e17a3be25f.svg" alt="HTML" />
 
             </GridItem>
             <GridItem>
-    <img width="50%" style={{height:"50%"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/css_3_3dbbdc86b6.svg" alt="CSS" />
+    <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/css_3_3dbbdc86b6.svg" alt="CSS" />
 
             </GridItem>
             <GridItem>
-            <img width="50%" style={{height:"50%"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/javascript_96690a83df.svg" alt="JS" />
+            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/javascript_96690a83df.svg" alt="JS" />
 
             </GridItem>
             <GridItem>
-            <img width="50%" style={{height:"50%"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/react_fd582ea59b.svg" alt="React JS" />
+            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/react_fd582ea59b.svg" alt="React JS" />
 
             </GridItem>
             <GridItem>
-            <img width="50%" style={{height:"50%"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/redux_f650f4cdbb.svg" alt="Redux" />
+            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/redux_f650f4cdbb.svg" alt="Redux" />
 
             </GridItem>
             <GridItem>
-            <img width="50%" style={{height:"50%"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/mongodb_8a65496daa.svg" alt="MongoDB" />
+            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/mongodb_8a65496daa.svg" alt="MongoDB" />
 
             </GridItem>
             <GridItem>
-            <img width="50%" style={{height:"50%"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/nodejs_07d5eaa3a7.svg" alt="NodeJS" />
+            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/nodejs_07d5eaa3a7.svg" alt="NodeJS" />
 
             </GridItem>
             <GridItem>
-            <img width="45%" style={{height:"60%"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="Python" />
+            <img width="45%" style={{height:"60%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="Python" />
 
             </GridItem>
         </Grid>
