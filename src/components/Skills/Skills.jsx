@@ -7,7 +7,7 @@ export default function Skills(){
         <Grid templateColumns='repeat(4,1fr)' gap={6}>
             <GridItem>
                 {/* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */}
-    <img width="50%" style={{height:"50%",boxShadow: "rgba(0,0,0, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/html_5_e17a3be25f.svg" alt="HTML" />
+    <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/html_5_e17a3be25f.svg" alt="HTML" />
 
             </GridItem>
             <GridItem>

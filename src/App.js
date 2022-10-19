@@ -40,9 +40,9 @@ function App() {
         <Divider/>
       <div ref={skillref}><Skills id="skill" /></div>
       <Divider/>
-      <div ref={projectref}><Projects id="project" /></div>
+      {/* <div ref={projectref}><Projects id="project" /></div>
       <Divider/>
-      <div ref={contactref}><Contact id="contact" /></div>
+      <div ref={contactref}><Contact id="contact" /></div> */}
 
       
       {/* <h1>Currently under Development !!</h1>
