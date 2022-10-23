@@ -10,3 +10,26 @@
     font-size: 18px;
     
 }
+.stylelg{
+    display: grid;
+    grid-template-columns: 38% 58%;
+    gap:20px;
+}
+.stylelg>div>img{
+    border-radius: 50%;
+        margin: 25px;
+        box-shadow: rgba(200, 200, 200, 0.5) 0px 7px 29px 0px;
+        width: 80%;
+}
+.stylemb{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.stylemb>div>img{
+    
+    border-radius: 50%;
+        margin: auto;
+        margin-top: 20px;
+        box-shadow: rgba(200, 200, 200, 0.5) 0px 7px 29px 0px;
+        width: 60%;
+}

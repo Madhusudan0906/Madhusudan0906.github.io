@@ -1,6 +1,11 @@
 .main{
     min-height: 600px;
     color: white;
+    background-image: url('./bglarge.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 45%;
+    padding-right: 2%;
 }
 .hrline{
     background-color:"red";

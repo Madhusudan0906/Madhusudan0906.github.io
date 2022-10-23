@@ -38,3 +38,19 @@
     transform: rotate(360deg);
   }
 }
+@media screen and (max-height:699px){
+  .topArrow{
+    display: none;
+  }
+}
+
+  .topArrow{
+    display: block;
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    background-color: white;
+    z-index: 10;
+  }
+
+

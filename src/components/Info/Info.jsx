@@ -1,19 +1,24 @@
-import { Box, Grid, GridItem, Heading,Image,Text } from '@chakra-ui/react';
+import { Box, Heading,Text, useMediaQuery } from '@chakra-ui/react';
 import React from 'react';
 import styles from "./Info.module.css";
 const Info = () => {
+  const [isLargerThan1280] = useMediaQuery('(min-width: 1024px)')
   return (
-    <div className={styles.main}>
+    <div className={styles.main} >
       <Box paddingTop='8%'>
-      <Grid templateColumns="48% 48%" gap="2%">
-        
-        <GridItem padding='1%'>
-        <Heading as='h1'>
+      
+      {isLargerThan1280?<Heading as='h1'>
         Hii there, 👋
-        </Heading>
-        <Heading as='h1'>
+        </Heading>:<Heading as='h1' style={{textAlign:"start",marginLeft:"20px"}}>
+        Hii there, 👋
+        </Heading>}
+      
+        {isLargerThan1280?<Heading as='h1'>
         I am Madhusudan Prajapat
-        </Heading>
+        </Heading>:<Heading as='h1' style={{textAlign:"start",marginLeft:"20px"}}>
+        I am <br/>Madhusudan Prajapat
+        </Heading>}
+        
         <br/>
           
           <hr className={styles.hrline} />
@@ -22,16 +27,9 @@ const Info = () => {
         </Heading>
         <hr className={styles.hrline} />
         <br/>
-        <Text fontSize='2xl'>
+        <Text fontSize='2xl' style={{textAlign:"justify"}}>
           Aspiring Full stack web developer, teamworking hardworking and collabrative, skilled person who wants to build amazing projects.
           </Text>
-        </GridItem>
-        <GridItem>
-          <Image style={{boxShadow: "rgba(200, 200, 200, 0.2) 0px 7px 29px 0px"}} loading='lazy' src="https://contentstatic.techgig.com/thumb/msid-89803879,width-720,resizemode-4/How-to-become-a-web-developer-A-complete-guide.jpg?16474" alt="programmer"/>
-        
-
-        </GridItem>
-      </Grid>
       </Box>
        
         
