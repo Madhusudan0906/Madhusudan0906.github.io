@@ -38,7 +38,7 @@ export default function Projects(){
         </Card>
         <Card
         key="4"
-        image="/images/thehindu.JPG" 
+        image="/images/bigbasket.JPG" 
         title="Big Basket Clone"
         code="https://github.com/Madhusudan0906/busy-fact-4985"
         web="https://busy-fact-4985-big-baske-clone.netlify.app/"
