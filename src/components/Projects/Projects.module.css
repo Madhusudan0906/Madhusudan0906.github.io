@@ -3,3 +3,22 @@
     color: white;
     padding-top: 2%;
 }
+.projectLg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    margin: 20px;
+}
+@media screen and (min-width:1440px) {
+    .projectLg{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+        margin: 20px;
+    }
+}
+.projectSm{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
