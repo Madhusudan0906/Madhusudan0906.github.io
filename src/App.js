@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import {TiArrowUpThick} from "react-icons/ti";
+import GithubStats from './components/GithubStats';
 
 function App() {
   const aboutref = useRef();
@@ -39,6 +40,7 @@ function App() {
       <div ref={aboutref}>
         <About id="about"/></div>
       <div ref={skillref}><Skills id="skill" /></div>
+      <GithubStats />
       <div ref={projectref}><Projects id="project" /></div>
       <div ref={contactref}><Contact id="contact" /></div>
 

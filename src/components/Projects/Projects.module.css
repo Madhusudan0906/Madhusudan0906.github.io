@@ -20,5 +20,6 @@
 .projectSm{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 10% ;
+    gap:20px;
 }

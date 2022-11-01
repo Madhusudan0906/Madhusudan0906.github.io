@@ -1,12 +1,22 @@
-import { Heading } from "@chakra-ui/react";
+import { Heading, useMediaQuery } from "@chakra-ui/react";
 import React from "react";
 
 const Card = (props) => {
+    const [isLargerThan1024] = useMediaQuery('(min-width: 1024px)')
     return (
         <div
-            style={{
+            style={isLargerThan1024?{
                 display: "grid",
                 gridTemplateColumns: "repeat(2,1fr)",
+                gap: "10px",
+                backgroundColor: "white",
+                color: "black",
+                padding: "20px 10px",
+                borderRadius:"5px",
+            }:{
+                display: "flex",
+                alignItems:"center",
+                flexDirection:"column",
                 gap: "10px",
                 backgroundColor: "white",
                 color: "black",
