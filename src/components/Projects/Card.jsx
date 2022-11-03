@@ -42,7 +42,7 @@ const Card = (props) => {
                             Code 
                         </button>
                     </a>
-                    <a href={props.web} target="_blank">
+                    <a href={props.web}>
                         <button
                             style={{
                                 border: "1px solid",
