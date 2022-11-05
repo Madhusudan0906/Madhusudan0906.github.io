@@ -3,3 +3,49 @@
     color: white;
     padding-top: 2%;
 }
+.contact{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contact>div:last-child{
+    min-width:60%;
+    margin: 2% 5%;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cform{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.cicon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 5%;
+    width: 20%;
+    margin: 2% 5%;
+}
+.cform>input{
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    border-radius: 2px;
+    width: 500px;
+    padding: 5px;
+}
+.cform>textarea{
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    border-radius: 2px;
+    width: 500px;
+    min-height: 100px;
+    padding: 5px;
+}
