@@ -1,0 +1,28 @@
+{
+    "techstacks":{
+        "HTML":"https://img.stackshare.io/service/2538/kEpgHiC9.png",
+        "CSS":"https://img.stackshare.io/service/6727/css.png",
+        "JavaScript":"https://img.stackshare.io/service/1209/javascript.jpeg",
+        "BootStrap":"https://img.stackshare.io/service/1101/C9QJ7V3X.png",
+        "NodeJS":"https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png",
+        "ReactJS":"https://img.stackshare.io/service/1020/OYIaJ1KK.png",
+        "Redux":"https://img.stackshare.io/service/4074/13142323.png",
+        "ExpressJs":"https://img.stackshare.io/service/1163/hashtag.png",
+        "TypeScript":"https://img.stackshare.io/service/1612/bynNY5dJ.jpg",
+        "MongoDb":"https://img.stackshare.io/service/1030/leaf-360x360.png",
+        "Python":"https://img.stackshare.io/service/993/pUBY5pVj.png",
+        "Django":"https://img.stackshare.io/service/994/4aGjtNQv.png",
+        "MySQL":"https://img.stackshare.io/service/1025/logo-mysql-170x170.png"
+    }
+    ,
+    "tools":{
+        "vs-Code":"https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png",
+        "sublime":"https://img.stackshare.io/service/642/default_e4b167a79203cda8d1d1498b9bad4d531aae0dab.jpg",
+        "github":"https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg",
+        "git":"https://img.stackshare.io/service/1046/git.png",
+        "gitHubPages":"https://img.stackshare.io/service/683/default_5eeb660db1239eeb3f1c1f6187f2abf0f3a0500d.png",
+        "ubuntu":"https://img.stackshare.io/service/3511/cof_orange_hex.jpg",
+        "slack":"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg",
+        "zoom":"https://img.stackshare.io/service/6083/oD_oPSBP_400x400.jpg"
+    }
+}

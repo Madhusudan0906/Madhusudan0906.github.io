@@ -27,7 +27,7 @@ const Card = (props) => {
             <div>
                 <img src={props.image} alt="primage" />
                 <div style={{ marginTop: "20px" }}>
-                    <a href={props.code} target="_blank">
+                    <a href={props.code} target="_blank" rel="noreferrer">
                         <button
                             style={{
                                 border: "1px solid",
@@ -42,7 +42,7 @@ const Card = (props) => {
                             Code 
                         </button>
                     </a>
-                    <a href={props.web}>
+                    <a href={props.web} target="_blank" rel="noreferrer">
                         <button
                             style={{
                                 border: "1px solid",

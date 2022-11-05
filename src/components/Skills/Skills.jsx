@@ -1,44 +1,47 @@
-import { Box, Grid,GridItem, Heading } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Heading, useMediaQuery } from "@chakra-ui/react";
 import styles from "./Skills.module.css";
-export default function Skills(){
-    return (<div className={styles.main}> 
-    <Heading as='h2'>Skills</Heading>
-    <Box padding="1%" align="center" marginTop="2%">
-        <Grid templateColumns='repeat(4,1fr)' gap={6}>
-            <GridItem>
-                {/* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */}
-    <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/html_5_e17a3be25f.svg" alt="HTML" />
-
-            </GridItem>
-            <GridItem>
-    <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/css_3_3dbbdc86b6.svg" alt="CSS" />
-
-            </GridItem>
-            <GridItem>
-            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/javascript_96690a83df.svg" alt="JS" />
-
-            </GridItem>
-            <GridItem>
-            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/react_fd582ea59b.svg" alt="React JS" />
-
-            </GridItem>
-            <GridItem>
-            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/redux_f650f4cdbb.svg" alt="Redux" />
-
-            </GridItem>
-            <GridItem>
-            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/mongodb_8a65496daa.svg" alt="MongoDB" />
-
-            </GridItem>
-            <GridItem>
-            <img width="50%" style={{height:"50%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://masai-website-images.s3.ap-south-1.amazonaws.com/nodejs_07d5eaa3a7.svg" alt="NodeJS" />
-
-            </GridItem>
-            <GridItem>
-            <img width="45%" style={{height:"60%",boxShadow: "rgba(255,255,255, 0.5) 0px 10px 5px -5px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="Python" />
-
-            </GridItem>
-        </Grid>
-        </Box>
-    </div>);
+import { useState, useEffect } from "react";
+import db from "./links.json";
+export default function Skills() {
+    const [isLargerThan1024] = useMediaQuery('(min-width: 1024px)')
+    const [isLargerThan768] = useMediaQuery('(min-width: 768px)')
+    const [data, setData] = useState({ ...db });
+    useEffect(() => {
+        console.log(data);
+    }, [data]);
+    return (
+        <div className={styles.main}>
+            <Box padding="1% 7%" align="center" marginTop="2%">
+                {Object.keys(data).map((keyname, i) => (
+                    <div key={i}>
+                        <Heading
+                            as="h2"
+                            style={{
+                                textTransform: "capitalize",
+                            }}
+                        >
+                            {keyname}
+                        </Heading>
+                        <br />
+                        <Grid templateColumns={isLargerThan1024?"repeat(6,1fr)":isLargerThan768?"repeat(4,1fr)":"repeat(3,1fr)"} gap={6}>
+                            {Object.keys(data[keyname]).map((ke, i) => (
+                                <GridItem key={`t${i}`}>
+                                    <img
+                                        src={data[keyname][ke]}
+                                        alt={ke}
+                                        style={{
+                                            border: "1px solid",
+                                            padding: "5px",
+                                            borderRadius: "2px",
+                                            boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+                                        }}
+                                    />
+                                </GridItem>
+                            ))}
+                        </Grid>
+                    </div>
+                ))}
+            </Box>
+        </div>
+    );
 }
