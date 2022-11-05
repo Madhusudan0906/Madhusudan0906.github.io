@@ -10,12 +10,11 @@ const GithubStats = () => {
         <Heading className={styles.h1}>Github Stats</Heading>
         <GithubCalender username="Madhusudan0906" fontSize={isLargerThan1024?24:14} theme="tokyonight" />
 
-        <img width={400} src="https://github-readme-stats.vercel.app/api/top-langs/?username=Madhusudan0906&theme=tokyonight" alt="usedLangs" />
-
         <img width={500} src="https://github-readme-stats.vercel.app/api?username=Madhusudan0906&show_icons=true&theme=tokyonight" alt="stats" />
         
         <img width={500} src="https://streak-stats.demolab.com?user=Madhusudan0906&theme=tokyonight" alt="streak" />
         
+        <img width={400} src="https://github-readme-stats.vercel.app/api/top-langs/?username=Madhusudan0906&theme=tokyonight" alt="usedLangs" />
     </div>
   )
 }
