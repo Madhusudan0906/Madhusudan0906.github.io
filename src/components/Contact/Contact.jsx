@@ -38,15 +38,15 @@ export default function Contact() {
                         </Tr>
                         <Tr>
                             <Th color={'white'}>Mobile</Th>
-                            <Td><a style={{textDecoration:"none"}} href="tel:+919893560297">+91 9893560297</a></Td>
+                            <Td><a style={{textDecoration:"none"}}  href="tel:+919893560297">+91 9893560297</a></Td>
                         </Tr>
                         <Tr>
                             <Th color={'white'}>Github</Th>
-                            <Td><a style={{textDecoration:"none"}} href="https://github.com/Madhusudan0906">Github Profile</a></Td>
+                            <Td><a style={{textDecoration:"none"}} target="_blank" rel="noopener noreferrer" href="https://github.com/Madhusudan0906">Github Profile</a></Td>
                         </Tr>
                         <Tr>
                             <Th color={'white'}>LinkedIn</Th>
-                            <Td><a style={{textDecoration:"none"}} href="https://www.linkedin.com/in/madhusudan-prajapat-918808169/">LinkedIn Profile</a></Td>
+                            <Td><a style={{textDecoration:"none"}} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/madhusudan-prajapat-918808169/">LinkedIn Profile</a></Td>
                         </Tr>
                     </Table>
                     </Box>
