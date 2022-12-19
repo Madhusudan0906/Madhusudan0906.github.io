@@ -34,19 +34,19 @@ export default function Contact() {
                     <Table>
                         <Tr>
                             <Th color={'white'}>Email</Th>
-                            <Td>prajapatmadhusudan06@gmail.com</Td>
+                            <Td><a style={{textDecoration:"none"}} href='mailto:prajapatmadhusudan06@gmail.com'>prajapatmadhusudan06@gmail.com</a></Td>
                         </Tr>
                         <Tr>
                             <Th color={'white'}>Mobile</Th>
-                            <Td>+91 9893560297</Td>
+                            <Td><a style={{textDecoration:"none"}} href="tel:+919893560297">+91 9893560297</a></Td>
                         </Tr>
                         <Tr>
                             <Th color={'white'}>Github</Th>
-                            <Td>Github Profile</Td>
+                            <Td><a style={{textDecoration:"none"}} href="https://github.com/Madhusudan0906">Github Profile</a></Td>
                         </Tr>
                         <Tr>
                             <Th color={'white'}>LinkedIn</Th>
-                            <Td>LinkedIn Profile</Td>
+                            <Td><a style={{textDecoration:"none"}} href="https://www.linkedin.com/in/madhusudan-prajapat-918808169/">LinkedIn Profile</a></Td>
                         </Tr>
                     </Table>
                     </Box>
