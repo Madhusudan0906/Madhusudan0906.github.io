@@ -1,13 +1,12 @@
-import { Box, Grid, GridItem, Heading, useMediaQuery } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Heading, Img,useMediaQuery } from "@chakra-ui/react";
 import styles from "./Skills.module.css";
 import { useState, useEffect } from "react";
 import db from "./links.json";
 export default function Skills() {
     const [isLargerThan1024] = useMediaQuery('(min-width: 1024px)')
     const [isLargerThan768] = useMediaQuery('(min-width: 768px)')
-    const [data, setData] = useState({ ...db });
+    const [data] = useState({ ...db });
     useEffect(() => {
-        console.log(data);
     }, [data]);
     return (
         <div className={styles.main}>
@@ -23,10 +22,10 @@ export default function Skills() {
                             {keyname}
                         </Heading>
                         <br />
-                        <Grid templateColumns={isLargerThan1024?"repeat(6,1fr)":isLargerThan768?"repeat(4,1fr)":"repeat(3,1fr)"} gap={6}>
+                        <Grid templateColumns={isLargerThan1024?"repeat(8,1fr)":isLargerThan768?"repeat(6,1fr)":"repeat(4,1fr)"} gap={6}>
                             {Object.keys(data[keyname]).map((ke, i) => (
                                 <GridItem key={`t${i}`}>
-                                    <img
+                                    <Img
                                         src={data[keyname][ke]}
                                         alt={ke}
                                         style={{
@@ -35,6 +34,7 @@ export default function Skills() {
                                             borderRadius: "2px",
                                             boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
                                         }}
+                                        
                                     />
                                 </GridItem>
                             ))}

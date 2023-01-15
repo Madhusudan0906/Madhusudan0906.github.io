@@ -1,6 +1,5 @@
-import { Box, Heading, Table, Td, Th, Tr, useMediaQuery } from "@chakra-ui/react";
-import { AiFillGithub, AiFillPhone } from "react-icons/ai";
-import { GrLinkedinOption } from "react-icons/gr";
+import { Box, Flex, Heading, Table, Td, Th, Tr, useMediaQuery } from "@chakra-ui/react";
+import { BsLinkedin,BsGithub } from "react-icons/bs";
 import styles from "./Contact.module.css";
 export default function Contact() {
     const [isLargerThan426] = useMediaQuery("(min-width: 426px)");
@@ -42,13 +41,19 @@ export default function Contact() {
                         </Tr>
                         <Tr>
                             <Th color={'white'}>Github</Th>
-                            <Td><a style={{textDecoration:"none"}} target="_blank" rel="noopener noreferrer" href="https://github.com/Madhusudan0906">Github Profile</a></Td>
+                            <Td><a style={{textDecoration:"none"}} target="_blank" rel="noopener noreferrer" href="https://github.com/Madhusudan0906">Madhusudan0906</a></Td>
                         </Tr>
                         <Tr>
                             <Th color={'white'}>LinkedIn</Th>
-                            <Td><a style={{textDecoration:"none"}} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/madhusudan-prajapat-918808169/">LinkedIn Profile</a></Td>
+                            <Td><a style={{textDecoration:"none"}} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/madhusudan-prajapat-918808169/">Madhusudan-prajapat-918808169</a></Td>
                         </Tr>
                     </Table>
+                    <Box marginTop={"10px"}>
+                        <Flex justifyContent={"center"} gap={"20px"}>
+                    <a style={{textDecoration:"none"}} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/madhusudan-prajapat-918808169/"><BsLinkedin size='50px' /></a>
+                    <a style={{textDecoration:"none"}} target="_blank" rel="noopener noreferrer" href="https://github.com/Madhusudan0906"><BsGithub size='50px' /></a>
+                    </Flex>
+                    </Box>
                     </Box>
                 </div>
                 <div>

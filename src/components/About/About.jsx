@@ -22,7 +22,7 @@ function About() {
                             <Text padding="5%" align="justify" color="black">
                                 Hi, My name is Madhusudan Prajapat. Full stack web developer
                                 <br/><br/>
-                                Hard Working , team Member and collabrative
+                                Hard Working, team Member and collabrative
                                 person who wants to prove himself.
                                 <br />
                                 by creating amazing projects and change the
